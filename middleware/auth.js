@@ -1,7 +1,9 @@
-// middleware/auth.js
+// middleware/auth.js 
 const jwt = require('jsonwebtoken');
+require('dotenv').config(); // ✅ Load environment variables from .env
 
-const JWT_SECRET = 'your-secret-key-change-in-production';
+// ✅ Use JWT secret from .env (fallback for safety)
+const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-in-production';
 
 const authenticateAdmin = (req, res, next) => {
   const authHeader = req.headers.authorization;

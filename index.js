@@ -44,7 +44,7 @@ app.use(express.json());
 
 
 
-mongoose.connect("mongodb+srv://hassanziaa05_db_user:S6x429yFmOeXk1oQ@cluster0.ylmijd6.mongodb.net/clothstore?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log("✅ Connected to MongoDB Atlas"))
   .catch(err => console.error("❌ Connection Error:", err));
 
