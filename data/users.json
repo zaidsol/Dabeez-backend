@@ -1,0 +1,59 @@
+[
+  {
+    "id": "1753178426902",
+    "name": "dfdf",
+    "email": "ali@gmail.com",
+    "phone": "r4545656",
+    "password": "$2b$10$Ed.LCJQEW0dEQwPt.uy8y.XUIwfII8pXH7V/Yp1BaiVaN0L1wnU8u",
+    "role": "patient",
+    "profilePic": "",
+    "gender": "male",
+    "age": "55"
+  },
+  {
+    "id": "1753178552515",
+    "name": "ali",
+    "email": "al@gmail.com",
+    "phone": "12345678",
+    "password": "$2b$10$rDkWQESJClGeDLyf3sQT6ewO0TazKV9t5e54d2BzOj61wz9SUP.ru",
+    "role": "doctor",
+    "profilePic": "",
+    "specialization": "mbbbs",
+    "experience": "4",
+    "description": "fcps"
+  },
+  {
+    "id": "1753178862124",
+    "name": "as",
+    "email": "a@gmail.com",
+    "phone": "34354564",
+    "password": "$2b$10$CrA/4z0JZ1cTlv..KZli8OmNMdqElb.a3pe3pX9hJCwYX4ywziili",
+    "role": "patient",
+    "profilePic": "",
+    "gender": "male",
+    "age": "34"
+  },
+  {
+    "id": "1753694125072",
+    "name": "ali",
+    "email": "alia@gmail.com",
+    "phone": "43432543",
+    "password": "$2b$10$gFBDWk8YoWicNRwNBaOvEul4wWgvXEvVHUBNlpbbzD9AnC2d6JVRW",
+    "role": "doctor",
+    "profilePic": "",
+    "specialization": "mbbs",
+    "experience": "1",
+    "description": "ssds"
+  },
+  {
+    "id": "1753694185662",
+    "name": "alib",
+    "email": "alib@gmail.com",
+    "phone": "223424343123",
+    "password": "$2b$10$74AySrrcKIeRfYZqqFTqnewLsTrzcOuPARm8jW0jyVDf4CvyTaLoa",
+    "role": "patient",
+    "profilePic": "",
+    "gender": "male",
+    "age": "14"
+  }
+]
